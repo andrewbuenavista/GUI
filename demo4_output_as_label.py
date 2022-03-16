@@ -32,8 +32,8 @@ class KiloConverterGUI:
 
         self.miles_label = tkinter.Label(self.mid_frame,textvariable=self.miles_var)
 
-        self.descr_label.pack(side="top")
-        self.miles_label.pack(side="top")
+        self.descr_label.pack(side="left")
+        self.miles_label.pack(side="left")
 
 
         self.calcbutton.pack(side='left')
